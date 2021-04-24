@@ -1,0 +1,24 @@
+{
+  "name": "pacemakers_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programmer101N/pacemakers_bot.git"
+  },
+  "author": "Naman Baranwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programmer101N/pacemakers_bot/issues"
+  },
+  "homepage": "https://github.com/Programmer101N/pacemakers_bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  }
+}
