@@ -12,6 +12,7 @@ config();
 //ROUTES
 client.once("ready", async () => {
 	console.log("Hello World!");
+	client.user?.setActivity({type: "WATCHING", name: "prgmaz on Twitch",});
 
 	const commandFiles = fs
 		.readdirSync("./commands/")
@@ -43,5 +44,6 @@ client.on("message", (message) => {
 		);
 	}
 });
+
 
 client.login(process.env.TOKEN);
