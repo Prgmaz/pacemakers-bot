@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon ."
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "build": "tsc --project ./"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Programmer101N/pacemakers_bot.git"
+    "url": "git+https://github.com/Programmer101N/pacemakers-bot.git"
   },
   "author": "Naman Baranwal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Programmer101N/pacemakers_bot/issues"
+    "url": "https://github.com/Programmer101N/pacemakers-bot/issues"
   },
-  "homepage": "https://github.com/Programmer101N/pacemakers_bot#readme",
+  "homepage": "https://github.com/Programmer101N/pacemakers-bot#readme",
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^8.6.0"
