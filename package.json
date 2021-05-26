@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Programmer101N/pacemakers_bot#readme",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.6.0"
   }
 }
